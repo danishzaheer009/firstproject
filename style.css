@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:50%;
+    height: 70vh;
+    margin: auto;
+    background-color: red;
+    overflow: hidden;
+}
+.main{
+    width:500%;
+    height:100%;
+    border:1px solid green;
+    display: flex;
+    position: relative;
+    transition:all 1s ;
+}
+.main>img{
+    height: 100%;
+    width:20%;
+}
+.b1{
+    border:2px solid;
+    position: relative;
+    left: 26%;
+   
+    cursor: pointer;
+    padding: 15px;
+    top:30px;
+    background-color:rgb(69, 179, 69);
+    color: purple;
+    text-transform: uppercase;
+}
+.maincon{
+border:2px solid;
+position: relative;
+}
+.h1{
+color:red;
+}
